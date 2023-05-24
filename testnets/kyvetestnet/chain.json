@@ -109,6 +109,12 @@
       "url": "https://testnet.mintscan.io/kyve-testnet",
       "tx_page": "https://testnet.mintscan.io/kyve-testnet/txs/${txHash}",
       "account_page": "https://testnet.mintscan.io/kyve-testnet/account/${accountAddress}"
+    },
+    {
+      "kind": "viewblock",
+      "url": "https://viewblock.io/kyve?network=kaon",
+      "tx_page": "https://viewblock.io/kyve/tx/${txHash}?network=kaon",
+      "account_page": "https://viewblock.io/kyve/address/${accountAddress}?network=kaon"
     }
   ]
 }
